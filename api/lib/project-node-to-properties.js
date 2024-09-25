@@ -11,6 +11,7 @@
 export function projectNodeToProperties(state) {
   return {
     databaseId: state.databaseId,
+    fields: state.fields,
     id: state.id,
     title: state.title,
     url: state.url,

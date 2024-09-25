@@ -21,6 +21,7 @@ export type DraftItemContent = {
 
 export type GitHubProjectProperties = {
   databaseId: string;
+  fields: ProjectFieldMap;
   id: string;
   title: string;
   url: string;

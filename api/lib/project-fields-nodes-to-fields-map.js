@@ -149,6 +149,7 @@ export function projectFieldsNodesToFieldsMap(state, project, nodes) {
           },
           {}
         );
+        acc[userFieldNameAlias].configuration = node.configuration;
       }
 
       return acc;
